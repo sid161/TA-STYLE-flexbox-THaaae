@@ -59,6 +59,8 @@ table {
 .header{
     padding: ;
     background-color: rgb(34,41,70);
+    position: fixed;
+    width: 100%;
 }
 .logo{
     height: 80px;
@@ -77,6 +79,7 @@ nav a{
 }
 .section1{
     padding: 64px 0;
+    padding-top: 128px;
    
 }
 .gallery{
