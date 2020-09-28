@@ -1,0 +1,62 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2|Flexbox</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="#">
+                <img  src="logo2.jfif" alt="logo"/>
+            </a>
+            <nav class="nav">
+                <a class="bell" href="#"><img src="assets/icons/bell.svg" alt="bell icon"/> </a>
+                <a class="user" href="#"><h3>Sarah Jone</h3></a>
+               <a href="#"><img src="assets/icons/user.svg" alt="user icon"/> </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="flex-art">
+        <aside class="aside">
+            <a href="#" class="dashboard-icon"><img src="assets/icons/dashboard.svg">Dashboard</a>
+            <a href="#" class="dashboard-icon"><img src="assets/icons/article.svg">Articles</a>
+            <a href="#" class="dashboard-icon"><img src="assets/icons/analytics.svg">Analytics</a>
+            <a href="#" class="dashboard-icon"><img src="assets/icons/inbox.svg">Inbox</a>
+            <a href="#" class="dashboard-icon"><img src="assets/icons/setting.svg">Settings</a>
+            <button class="btn">
+            <a href="#"><img src="assets/icons/log-out.svg">Log Out</a>
+        </button>
+        </aside>
+
+    <section class="section2 ">
+            <img class="main-img" src="assets/01.png">
+            <h1 class="main-heading">Why We Are Doing AltCampus?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ullam aspernatur voluptatem quaerat accusantium optio placeat, quisquam provident adipisci numquam dolor, error veniam, iste quae eligendi repellat quod ipsum commodi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae saepe, non enim cum, explicabo voluptas labore error aut, quia est. Fugiat voluptate repellat mollitia unde quae, error itaque nobis?</p>
+            <a class="button" href="#">Read More</a>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="container flex">
+            <small>&copy;AltCampus</small>
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i> </a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
